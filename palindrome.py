@@ -14,6 +14,11 @@ else:
 
 
 # using python builtin functions
-text = input("enter string: ")
-if text == text[::-1]:
-  print("a palindrome")
+def palindrome():
+    text = input("enter string: ")
+    result = text[::-1]
+    if text == result:
+        return True
+    else:
+        return False
+palindrome()
