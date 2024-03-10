@@ -1,4 +1,4 @@
-# left most non repeating character index
+# left most non repeating character index 'naive approach'
 def leftmostnonrepeating(string):
     for i in range(len(string)):
         count = 0
