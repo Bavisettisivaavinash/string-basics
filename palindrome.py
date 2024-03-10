@@ -1,3 +1,4 @@
+# two pointer method
 def is_palindrome(word):
   left, right = 0, len(word) - 1
   while left < right:
@@ -11,7 +12,8 @@ if is_palindrome("racecar"):
 else:
   print("not palindrome!")
 
-  # using python builtin functions
-  text = input("enter string: ")
-  if text == text[::-1]:
-    print("a palindrome")
+
+# using python builtin functions
+text = input("enter string: ")
+if text == text[::-1]:
+  print("a palindrome")
